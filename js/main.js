@@ -114,4 +114,16 @@
     });
     
 })(jQuery);
-
+function myFunctionDark(){
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    
+    var x = document.getElementById("dark");
+    {
+        if (x.innerHTML === "Dark Mode")
+            x.innerHTML = "Light Mode";
+        else {
+            x.innerHTML = "Dark Mode";
+        }
+    }
+}
