@@ -1901,7 +1901,10 @@ pre code {
     transition: none;
   }
 }
-
+.dark-mode{
+            background-color: black;
+            color: white;
+        }
 .form-control::-ms-expand {
   background-color: transparent;
   border: 0;
